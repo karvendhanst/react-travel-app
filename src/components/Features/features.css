@@ -1,0 +1,18 @@
+.feature-cards .card{
+    text-align: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.feature-cards .card .card-img-top{
+    width: 80px;
+    margin: 15px auto;
+}
+.card-body .card-title{
+    font-weight: 700;
+}
+.card-body .card-text{
+    color: #656565;
+    word-spacing: 3px;
+}
+

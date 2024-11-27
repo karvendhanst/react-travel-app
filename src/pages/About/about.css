@@ -1,0 +1,28 @@
+.about-img img{
+    width: 100%;
+    border-radius: 12px;
+}
+.about-img-title{
+    font-weight: 700;
+    line-height: 2;
+    word-spacing: 5px;
+}
+.about-img p{
+    line-height: 2.5;
+}
+.about-card{
+    text-align: center;
+    border: none !important;
+}
+.about-card img{
+    width: 80px;
+    margin: 0 auto;
+}
+.about-card .card-title{
+    margin: 15px 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.card-text{
+    color: var(--textClr);
+}

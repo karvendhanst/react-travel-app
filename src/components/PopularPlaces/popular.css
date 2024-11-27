@@ -1,0 +1,85 @@
+.popular-section .card-body .pcard-location{
+    font-size: 14px;
+    color: #5e5e5e;
+}
+.popular-section .card-body .card-title{
+    margin: 10px 0 20px;
+    font-size: 1.2rem;
+}
+.pcard-review{
+    margin-top: -5px;
+}
+.pcard-review i {
+    color: var(--primaryClr);
+}
+.pcard-cat{
+    display: flex;
+    gap: 0 15px;
+    margin: -5px 0 -10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.popular-section .card-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.popular-title{
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.5rem;
+    line-height: 2;
+    font-weight: 600;
+}
+.popular-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+.popular-cards .card{
+    transition: .5s;
+}
+.popular-cards .card:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+.Hills{
+    color: rgb(187, 11, 222);
+}
+.River{
+    background-color: #08a3cabd;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+.Travel{
+    background-color: rgb(75, 245, 32);
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+.Wildlife{
+    background-color: rgb(214, 165, 30);
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+.Temple, .Play, .Forest, .Beach{
+    color: crimson;
+}
+.Falls{
+    color: rgb(133, 237, 92);
+}
+.Cruise{
+    background-color: rgb(60, 87, 244);
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 991px){
+    .card{
+        width: 18em !important;
+    }
+}

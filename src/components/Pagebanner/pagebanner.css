@@ -1,0 +1,32 @@
+.page-banner{
+    width: 100%;
+    height: 260px;
+    position: relative;
+}
+.page-banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position:  10% 50%;
+}
+.page-banner::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1306015b;
+}
+.page-banner h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    color: var(--white);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2rem;
+}

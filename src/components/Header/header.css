@@ -1,0 +1,100 @@
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-logo{
+    color: var(--white) !important;
+    cursor: pointer;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 600;
+}
+.offcanvas-header h3{
+    color: var(--black);
+    font-family: "Libre Baskerville", serif;
+}
+.offcanvas-header span i{
+    font-size: 1.5rem;
+}
+.offcanvas-body a, .offcanvas-body a:hover, .offcanvas-body a:focus{
+    color: var(--white);
+    transition: .5s;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+
+.offcanvas-body a:hover , .is-sticky .offcanvas-body a:hover{
+    color: var(--primaryClr);
+}
+
+.book-btn, .book-btn:hover{
+    color: var(--white) !important;
+    background-color: var(--primaryClr) !important;
+}
+
+.is-sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    animation: smoothScroll 1s forwards;
+    background-color: var(--white);
+    z-index: 1000;
+}
+
+@keyframes smoothScroll {
+    0%{
+        transform: translateY(-40px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.is-sticky .offcanvas-body a{
+    color: var(--black);
+}
+.is-sticky .nav-logo{
+    color: var(--black) !important;
+}
+.toggle-btn{
+    color: var(--white);
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.is-sticky .toggle-btn{
+    color: var(--black);
+}
+
+@media screen and (max-width: 992px){
+    .offcanvas-body a, .offcanvas-body a:focus{
+        color: var(--black);
+        transition: .5s;
+        text-align: center;
+        margin: 30px 0;
+    }
+    .offcanvas-body a:hover{
+        color: var(--primaryClr);
+    }
+    .book-btn{
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+}
+.modal-footer button, .modal-footer button:hover, .modal-footer button:focus{
+    background-color: var(--primaryClr) !important;
+    border: none;
+    outline: none;
+}
+.modal-body input:focus{
+    box-shadow: none;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+

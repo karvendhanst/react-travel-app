@@ -1,0 +1,40 @@
+footer{
+    background-color: var(--black);
+    color: var(--white);
+    padding: 35px 0;
+}
+footer .footer-top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-right: 30px;
+}
+footer ul h3{
+    font-size: 1.3rem;
+    color: var(--primaryClr);
+}
+footer ul li{
+    line-height: 2.5;
+    transition: .5s;
+    cursor: pointer;
+}
+footer ul li:hover{
+    color: var(--primaryClr);
+    transition: .5s;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+    border-top: 1px solid #4f4f4f;
+    margin-top: 30px;
+}
+.footer-bottom p{
+    font-size: 14px;
+}
+.footer-bottom i{
+    color: var(--white);
+    font-size: 2rem;
+    cursor: pointer;
+}

@@ -1,0 +1,120 @@
+.tour-title{
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.5rem;
+    line-height: 2;
+    font-weight: 600;
+}
+
+.tour-card img{
+    border-radius: 10px;
+    width: 260px !important;
+    outline: none;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: .5s;
+}
+.slick-slide .tour-card{
+    border: none;
+    outline: none;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.slick-arrow::before{
+    font-size: 2.5rem;
+    color: var(--primaryClr);
+    border-radius: 50%;
+    opacity: 1;
+    background-color: var(--white);
+    padding-top: 3px;
+}
+.slick-prev{
+    margin-right: -75px;
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: -10px;
+}
+.slick-next{
+    margin-left: -35px;
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    right: 18px;
+
+}
+.tour-card img:hover{
+    transform: scale(.96);
+    transition: .5s;
+}
+.tour-card span{
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    right: -100%;
+    color: var(--primaryClr);
+    background-color: var(--white);
+    padding: 3px 12px;
+    border-radius: 18px;
+    transition: 1s;
+}
+
+.tour-card:hover span{
+    right: 50px;
+    transition: 1s;
+}
+
+.home-contact{
+    width: 100%;
+    height: 400px;
+    background-image: url('../../assets/images/home-contact/travel1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+.home-contact::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.307);
+}
+.home-contact-content{
+    color: var(--white);
+    position: relative;
+    top: 20%;
+    z-index: 100;
+}
+.home-contact-content span{
+    color: var(--primaryClr);
+    text-transform: uppercase;
+}
+.home-contact-content h1{
+    font-weight: 800;
+    line-height: 1.5;
+}
+.home-contact-content p{
+    line-height: 1.7;
+}
+.home-contact .btn, .home-contact .btn:hover{
+    border: 2px solid var(--white);
+    color: var(--white);
+    position: relative;
+    z-index: 100;
+    top: 55%;
+    left: 33%;
+    border-radius: 0;
+    animation: animate-btn 1s infinite linear alternate;
+}
+@keyframes animate-btn {
+    from{
+        transform: scale(1.1);
+    }
+    to{
+        transform: scale(1);
+    }
+}
