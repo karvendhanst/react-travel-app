@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/react-travel-app/static/css/main.04dd58eb.css",
+    "main.js": "/react-travel-app/static/js/main.bea9082c.js",
+    "static/media/cn1.jpg": "/react-travel-app/static/media/cn1.24bea2e35bda12594d5f.jpg",
+    "static/media/pb1.jpg": "/react-travel-app/static/media/pb1.24bea2e35bda12594d5f.jpg",
+    "static/media/travel1.webp": "/react-travel-app/static/media/travel1.f95cc08457f70019e04c.webp",
+    "static/media/about.png": "/react-travel-app/static/media/about.3c46d8d479914a342773.png",
+    "static/media/t1.png": "/react-travel-app/static/media/t1.c85c74b799778bf8625b.png",
+    "static/media/Discover Singapore.png": "/react-travel-app/static/media/Discover Singapore.33347062c143d09bd145.png",
+    "static/media/t5.png": "/react-travel-app/static/media/t5.f83b97b413e651df9bce.png",
+    "static/media/t2.png": "/react-travel-app/static/media/t2.007e6059470eacded64c.png",
+    "static/media/t3.png": "/react-travel-app/static/media/t3.55ccabe2cc07eb10a076.png",
+    "static/media/bootstrap-icons.woff?": "/react-travel-app/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/react-travel-app/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/fe3.png": "/react-travel-app/static/media/fe3.996e22dc362e668ed06e.png",
+    "static/media/fe2.png": "/react-travel-app/static/media/fe2.1ed407f9e6b2309591f0.png",
+    "static/media/LA Explorer.jpg": "/react-travel-app/static/media/LA Explorer.c6b67484bde15e9ea892.jpg",
+    "static/media/Anchorage To Santiago.jpg": "/react-travel-app/static/media/Anchorage To Santiago.5095070aab217bdae0b3.jpg",
+    "static/media/Anchorage To La Paz.jpg": "/react-travel-app/static/media/Anchorage To La Paz.58f36933fd858bc1d5c6.jpg",
+    "static/media/Anchorage To Quito.jpg": "/react-travel-app/static/media/Anchorage To Quito.4c81da2a601a5aadc5b4.jpg",
+    "static/media/Kiwiana Panorama.jpg": "/react-travel-app/static/media/Kiwiana Panorama.be0656934f5b3e6a2e8b.jpg",
+    "static/media/Cuzco To Anchorage.jpg": "/react-travel-app/static/media/Cuzco To Anchorage.f85ceff1d83acb24e1cb.jpg",
+    "static/media/Anchorage To Ushuaia.jpg": "/react-travel-app/static/media/Anchorage To Ushuaia.ce41c8b5cae1067df934.jpg",
+    "static/media/f2.webp": "/react-travel-app/static/media/f2.317df4cb94d954cff3f3.webp",
+    "static/media/fe4.webp": "/react-travel-app/static/media/fe4.0982d9a3840ade4ed170.webp",
+    "static/media/fe1.webp": "/react-travel-app/static/media/fe1.026c6baa036bed3bee45.webp",
+    "static/media/slick.svg": "/react-travel-app/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/react-travel-app/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/react-travel-app/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/react-travel-app/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/react-travel-app/index.html",
+    "main.04dd58eb.css.map": "/react-travel-app/static/css/main.04dd58eb.css.map",
+    "main.bea9082c.js.map": "/react-travel-app/static/js/main.bea9082c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04dd58eb.css",
+    "static/js/main.bea9082c.js"
+  ]
+}
