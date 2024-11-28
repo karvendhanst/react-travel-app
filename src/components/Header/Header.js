@@ -57,7 +57,7 @@ const Header = () => {
             <Offcanvas.Body className='mx-5'>
               <Nav className="justify-content-end flex-grow-1 pe-3 ms-auto">
                 <Link to="/" className='nav-link mx-2'>Home</Link>
-                <Link to={"/about"} className='nav-link mx-2'>About</Link>
+                <Link to="/about" className='nav-link mx-2'>About</Link>
                 <Link to="/tours" className='nav-link mx-2'>Tours</Link>
                 <Link to="/contact" className='nav-link mx-2'>Contact</Link>
               </Nav>
